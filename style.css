@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.header, footer {
+    background-color: white;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    min-height: 86.3vh;
+}
+
+.items{
+    background-color: white;
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
